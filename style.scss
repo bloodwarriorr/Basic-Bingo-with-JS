@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    flex-flow: column;
+  width: 100%;
+  height: 100 vh;
+  justify-content: center;
+  align-items: center;
+}
+button{
+    height: 50px;
+    width: 100px;
+
+}
+#buttonmargin{
+    margin-top: 50px;
+}
+ .columnsclass{
+&.active{
+    background-color: green;
+}
+ }
